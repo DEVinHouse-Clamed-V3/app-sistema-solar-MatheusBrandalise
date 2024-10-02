@@ -20,7 +20,7 @@ export const planets = [
       periodoRotacaoDias: 243,
     },
     {
-      img: "https://segredosdomundo.r7.com/wp-content/uploads/2020/01/planeta-terra-conheca-tudo-sobre-o-nosso-planeta-natal.jpg",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg/1024px-Mercury_in_color_-_Prockter07-edit1.jpg",
       nome: "Mercúrio",
       descricaoBreve: "O menor planeta do Sistema Solar.",
       descricao:
@@ -31,7 +31,7 @@ export const planets = [
       periodoRotacaoDias: 58.6,
     },
     {
-      img: "https://segredosdomundo.r7.com/wp-content/uploads/2020/01/planeta-terra-conheca-tudo-sobre-o-nosso-planeta-natal.jpg",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/1024px-OSIRIS_Mars_true_color.jpg",
       nome: "Marte",
       descricaoBreve: "Conhecido como o planeta vermelho.",
       descricao:
@@ -42,7 +42,7 @@ export const planets = [
       periodoRotacaoDias: 1.03,
     },
     {
-      img: "https://segredosdomundo.r7.com/wp-content/uploads/2020/01/planeta-terra-conheca-tudo-sobre-o-nosso-planeta-natal.jpg",
+      img: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
       nome: "Júpiter",
       descricaoBreve: "O maior planeta do Sistema Solar.",
       descricao:
@@ -53,7 +53,7 @@ export const planets = [
       periodoRotacaoDias: 0.41,
     },
     {
-      img: "https://segredosdomundo.r7.com/wp-content/uploads/2020/01/planeta-terra-conheca-tudo-sobre-o-nosso-planeta-natal.jpg",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/1920px-Saturn_during_Equinox.jpg",
       nome: "Saturno",
       descricaoBreve: "Famoso por seus belos anéis.",
       descricao:
@@ -64,7 +64,7 @@ export const planets = [
       periodoRotacaoDias: 0.45,
     },
     {
-      img: "https://segredosdomundo.r7.com/wp-content/uploads/2020/01/planeta-terra-conheca-tudo-sobre-o-nosso-planeta-natal.jpg",
+      img: "https://upload.wikimedia.org/wikipedia/commons/6/69/Uranus_Voyager2_color_calibrated.png",
       nome: "Urano",
       descricaoBreve: "Um planeta inclinado e gelado.",
       descricao:
@@ -75,7 +75,7 @@ export const planets = [
       periodoRotacaoDias: 0.72,
     },
     {
-      img: "https://segredosdomundo.r7.com/wp-content/uploads/2020/01/planeta-terra-conheca-tudo-sobre-o-nosso-planeta-natal.jpg",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Neptune_Voyager2_color_calibrated.png/1024px-Neptune_Voyager2_color_calibrated.png",
       nome: "Netuno",
       descricaoBreve: "O planeta mais distante do Sol.",
       descricao:
@@ -86,7 +86,7 @@ export const planets = [
       periodoRotacaoDias: 0.67,
     },
     {
-      img: "https://segredosdomundo.r7.com/wp-content/uploads/2020/01/planeta-terra-conheca-tudo-sobre-o-nosso-planeta-natal.jpg",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/1024px-Pluto_in_True_Color_-_High-Res.jpg",
       nome: "Plutão",
       descricaoBreve: "Agora classificado como planeta anão.",
       descricao:

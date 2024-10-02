@@ -13,7 +13,14 @@ export default function App() {
           <View key={planet.nome} style={styles.planetWrapper}>
           <Text style={styles.planetTitle}>{planet.nome.toLocaleUpperCase()} </Text>
           <Image style={styles.planetImage} source={{uri: planet.img}} />
+          <Text style={styles.planetShortDescription}>{planet.descricaoBreve} </Text>
           <Text style={styles.planetDescription}>{planet.descricao} </Text>
+          <View>
+          <Text style={styles.planetSatelites}>{`Quantidade de satélites: ${planet.quantidadeSatelites}.`} </Text>
+          <Text style={styles.planetSatelites}>{`Área da superfície: ${planet.areaSuperficieKm2} km².`} </Text>
+          <Text style={styles.planetSatelites}>{`Velocidade orbital média: ${planet.velocidadeOrbitalMediaKmS} km/s.`} </Text>
+          <Text style={styles.planetSatelites}>{`Período de rotação: ${planet.periodoRotacaoDias} dias.`} </Text>
+          </View>
         </View>
         ))
       }</ScrollView>
@@ -42,6 +49,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
+    marginBottom: 60,
+    paddingBottom: 10
   },
   planetWrapper: { 
     alignItems: 'center',
@@ -58,9 +67,26 @@ const styles = StyleSheet.create({
     width: 200,
     height: 200,
   },
+  planetShortDescription:{
+    color: '#FCFCFC',
+    textAlign:'center',
+    fontWeight: '800',
+    padding: 5,
+  },
   planetDescription:{
     color: '#FCFCFC',
     textAlign:'justify',
-    padding: 20,
+    paddingLeft: 20,
+    paddingRight: 20,
+    marginBottom: 10
+  },
+  planetSatelites:{
+    color: '#000',
+    backgroundColor: '#e2e2e2',
+    textAlign: 'left',
+    margin: 2,
+    padding: 5,
+    fontWeight: '600',
+    borderRadius: 20
   }
 });
